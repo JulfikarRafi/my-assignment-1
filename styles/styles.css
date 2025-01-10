@@ -131,7 +131,64 @@
   color: #0E0E0E;
   opacity: 70%;
   font-size: 16px;
+ }
+ /* vision style */
+ .vision-title{
+  font-weight: bold;
+  font-size: 40px;
+  color: #0E0E0E;
+
+ }
+ .vision-description{
+  color: #0E0E0E;
+  opacity: 70%;
+  font-size: 16px;
+  margin-bottom: 30px;
+
+ }
+ .visions{
+  display: flex;
+  justify-content: space-evenly;
+  gap: 24px;
+
+ }
+ .vision-card{
+  width: 411px;
+  height: 290px;
+  padding: 32px 32px;
+  border-radius: 16px;
 
   
 
  }
+ .vision-card-title{
+  color: #0E0E0E;
+  font-weight: bold;
+  font-size: 20px;
+  opacity: 80%;
+
+ }
+ .vision-card-description{
+  margin-bottom: 52px;
+  font-size: 16;
+  color: #0E0E0E;
+  opacity: 70%;
+
+ }
+ .vision-card-description2{
+  margin-bottom: 70px;
+  font-size: 16;
+  color: #0E0E0E;
+  opacity: 70%;
+ }
+ 
+ .vision-btn{
+  padding: 11px 20px;
+  font-size: 16px;
+  font-weight: 700;
+  border-radius: 8px;
+  border: none;
+  color: white;
+ }
+
+ 
