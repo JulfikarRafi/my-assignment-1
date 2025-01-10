@@ -7,6 +7,16 @@
   }
 
   /* shared-style */
+  .btn1{
+    background-color: rgb(0, 106, 80);
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    padding: 17px 34px;
+    border: none;
+
+  }
  
   /* main background color */
   .background-color{
@@ -38,26 +48,90 @@
     font-weight: 700;
     border-color:#006A50 ;
     padding: 15px 30px;
-    margin: 20px 15px;
+    margin: 20px 0px;
 
   }
   /* Banner */
   .banner{
     background-color:rgb(198, 228, 214);
     border-radius: 24px;
+    display: flex;
+    justify-content: space-between;
+    height: 460px;
+    padding: 80px 60px;
   }
   .banner-info{
 
   }
   .banner-title{
+    color: rgba(14, 14, 14, 0.5);
+    font-weight: 500;
+    font-size: 24px;
+    
+    
+    
+    
 
   }
   .banner-sub-title{
+    color: rgb(14, 14, 14);
+    font-weight: 700;
+    font-size: 56px;
+    
 
   }
  .banner-btn{
+  
 
  }
  .banner-img{
+  margin-top: 45px;
+  width: 474px;
+  height: 400pxa;
     
+ }
+ /* pillar style */
+ .pillars{
+
+ }
+ .pillars-title{
+  color: #0E0E0E;
+  font-weight: bold;
+  font-size: 40px;
+  margin-top: 80px;
+  margin-bottom: 32px;
+
+ }
+ .pillar-container{
+  display: flex;
+  gap: 24px;
+ }
+ .pillar{
+  background-color: white;
+  border-radius: 16px;
+  height: 224px;
+  width: 302px;
+  padding: 24px 24px;
+
+  
+ }
+ .pillar-img{
+  margin-bottom: 0px;
+
+ }
+ .pillar-smalltitle{
+  color: #0E0E0E;
+  font-weight: bold;
+  font-size: 20px;
+  opacity: 80%;
+  margin-bottom: 0px;
+
+ }
+ .pillar-description{
+  color: #0E0E0E;
+  opacity: 70%;
+  font-size: 16px;
+
+  
+
  }
