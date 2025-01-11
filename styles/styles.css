@@ -60,9 +60,7 @@
     height: 460px;
     padding: 80px 60px;
   }
-  .banner-info{
-
-  }
+  
   .banner-title{
     color: rgba(14, 14, 14, 0.5);
     font-weight: 500;
@@ -80,10 +78,7 @@
     
 
   }
- .banner-btn{
-  
 
- }
  .banner-img{
   margin-top: 45px;
   width: 474px;
@@ -92,8 +87,9 @@
  }
  /* pillar style */
  .pillars{
-
+  margin-bottom: 80px;
  }
+ 
  .pillars-title{
   color: #0E0E0E;
   font-weight: bold;
@@ -199,6 +195,7 @@
   background-repeat: no-repeat;
   background-position: 25px 20px;
   margin-top: 32px;
+  margin-bottom: 80px;
  }
  .dryunus-driscription{
   color: #0E0E0E;
@@ -229,25 +226,59 @@
 .your-opinion-questions{
   background-color: white;
   width: 1218px;
-  height: 409px;
+  height: 350px;
   border-radius: 16px;
   padding: 32px 32px;
+  margin-bottom: 80px;
+  
 
 }
 /* table */
-.table-header-container{
-  display: flex;
-  justify-content: space-between;
-}
-.table-details-container1{
-  display: flex;
-  justify-content: space-between;
-}
-.selection{
-  padding: -200px 0px;
-  margin: -6px 0px;
+table{
+  border: 1px solid rgb(203, 202, 202);
+  border-collapse: collapse;
+  width: 1216px;
+  height: 345px;
   
 }
+
+td{
+  border: 1px solid rgb(203, 202, 202);
+  
+}
+.left-header{
+  text-align: left;
+  padding-left: 24px;
+  
+  
+  
+}
+.first-row{
+  color: #0E0E0E;
+  font-weight: 700;
+  font-size: 20px;
+  background-color: #C6E4D6;
+}
+
+.left-details{
+  color: #0E0E0E;
+  font-weight: 700;
+  font-size: 20px;
+  padding-left: 24px;
+  
+}
+
+.select-bar{
+  width: 152px;
+  height: 44px;
+  margin-left: 24px;
+  background-color: #C6E4D6;
+  border-radius: 4px;
+  color: #0E0E0E;
+  font-size: 16px;
+  font-weight: 600;
+}
+
 
 /* news card */
 .recent-news-main-title{
@@ -308,7 +339,7 @@
 .normal-btn{
   padding: 40px 40px;
   border-radius: 16px;
-  border: none;
+  border: 1px solid rgb(197, 197, 197);
   background-color: white;
   color: #0E0E0E;
   opacity: 80%;
@@ -318,7 +349,7 @@
 .unique-btn{
   padding: 40px 40px;
   border-radius: 16px;
-  border: none;
+  border: 1px solid rgb(197, 197, 197);
   background-color: #C6E4D6;
   color: #0E0E0E;
   opacity: 80%;
@@ -388,7 +419,7 @@
 /* footer */
 .footer-main{
   background-color: white;
-  margin: 0px -9999px -9999px -9999px;
+  margin: 0px -10px -10px -10px;
   padding: 50px 0px;
 }
 .footer-headline{
