@@ -15,7 +15,12 @@
     color: white;
     padding: 17px 34px;
     border: none;
+    cursor: pointer;
+    transition: 0.5s;
 
+  }
+  .btn1:hover{
+    background-color: #C6E4D6;
   }
  
   /* main background color */
@@ -49,7 +54,12 @@
     border-color:#006A50 ;
     padding: 15px 30px;
     margin: 20px 0px;
+    cursor: pointer;
+    transition: 0.5s;
 
+  }
+  .nav-btn:hover{
+    background-color:rgb(198, 228, 214) ;
   }
   /* Banner */
   .banner{
@@ -59,6 +69,20 @@
     justify-content: space-between;
     height: 460px;
     padding: 80px 60px;
+  }
+  .banner-btn{
+    background-color: rgb(0, 106, 80);
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    padding: 17px 34px;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+  .banner-btn:hover{
+    background-color: #0E0E0E;
   }
   
   .banner-title{
@@ -185,7 +209,11 @@
   border-radius: 8px;
   border: none;
   color: white;
+  cursor: pointer;
  }
+
+ 
+
  .dryunus{
   background-color: white;
   width: 1232px;
@@ -345,18 +373,14 @@ td{
   opacity: 80%;
   font-weight: bold;
   font-size: 40px;
+  cursor: pointer;
+  transition: 0.5s;
 }
-.unique-btn{
-  padding: 40px 40px;
-  border-radius: 16px;
-  border: 1px solid rgb(197, 197, 197);
+.normal-btn:hover{
   background-color: #C6E4D6;
-  color: #0E0E0E;
-  opacity: 80%;
-  font-weight: bold;
-  font-size: 40px;
-
 }
+
+
 .inputbox{
   display: flex;
   justify-content: center;
@@ -411,7 +435,13 @@ td{
     color: white;
     padding: 17px 34px;
     border: none;
+    transition: 0.5s;
+    cursor: pointer;
 }
+.email-button:hover{
+  background-color: black;
+}
+
 .email-subtitle{
   text-align: center;
 }
